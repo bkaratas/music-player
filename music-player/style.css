@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+.container{
+    width: 500px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i{
+    margin-right: 5px;
+}
+.list-group:hover{
+    cursor: pointer;
+}
+
+li.playing{
+    background-color: black;
+    color: white;
+}
+.buttonImg{
+    width: 190px;
+    height: 100px;
+    margin-right: 8px;
+}
+
+.no-fligh{
+    background-color: black;
+    border-color: #fff;
+    color: #fff;
+}
